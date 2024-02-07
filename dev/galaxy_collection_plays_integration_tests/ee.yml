@@ -20,6 +20,7 @@
         ah_host: "{{ ah_host }}"
         ah_username: "{{ ah_username }}"
         ah_password: "{{ ah_password }}"
+        validate_certs: false
 
     - name: create a repo
       ah_ee_repository:
@@ -33,6 +34,7 @@
         ah_host: "{{ ah_host }}"
         ah_username: "{{ ah_username }}"
         ah_password: "{{ ah_password }}"
+        validate_certs: false
 
 #    - name: Index redhat.io registry
 #      ah_ee_registry_index:
@@ -68,4 +70,5 @@
         ah_host: "{{ ah_host }}"
         ah_username: "{{ ah_username }}"
         ah_password: "{{ ah_password }}"
+        validate_certs: false
 
